@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Dubs Skylights TMaterials - Glass Patch</name>
+	<author>Maaxar</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Maaxar.DubsSkylights.TMaterialsGlass.patch</packageId>
+	<description>
+
+Patches the skylights in Dubs Skylights mod to use the Glass from test's "TMaterials - Glass" mod. It will also patch the additional skylight sizes added by BJR1984's "Dubs Skylights Addon" mod. 
+
+Dubs Skylights - https://steamcommunity.com/sharedfiles/filedetails/?id=833899765
+Dubs Skylights Addon - https://steamcommunity.com/sharedfiles/filedetails/?id=2016959026
+
+TMaterials - Glass - https://steamcommunity.com/sharedfiles/filedetails/?id=2845463213
+
+Also removes the "Glass Pane" recipe and item from the Dubs Skylights mod
+
+Requires Dubs Skylights. Will not modify anything unless there is an item with the defName "TMaterials_Glass".
+
+Not compatible with my other mod, "Dubs Skylights Glass+Lights Patch". Please choose either this mod or that mod, depending on whether you want to use the glass from "TMaterials - Glass", or the glass from "Glass+Lights"/"Just Glass".
+
+Change Log:
+
+Version 0.1.1.0 - Created for RimWorld version 1.4.
+
+	</description>
+</ModMetaData>
+
+
+
