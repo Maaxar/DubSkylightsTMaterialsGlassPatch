@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "TMaterials_Glass"]</xpath>
+			</li>
+			<!-- Replace GlassPane with TMaterials_Glass -->
+			<li Class="PatchOperationSetName">
+				<success>Always</success>
+				<xpath>Defs/ThingDef/costList/GlassPane</xpath>
+				<name>TMaterials_Glass</name>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/RecipeDef[defName = "SmeltGlass4x"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "GlassPane"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
